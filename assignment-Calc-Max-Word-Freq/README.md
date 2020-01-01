@@ -106,8 +106,8 @@ for methods with these exact names.
     * call the calculate_word_frequency() method.
 
 6. Implement the calculate_word_frequency() method to:
-    * calculate the maximum number of times a single word appears within
-    provided content and store that in the highest_wf_count attribute.
+    * calculate the maximum number of times a single word appears within a
+     provided content and store that in the highest_wf_count attribute.
     * identify the words that were used the maximum number of times and
     store that in the highest_wf_words attribute.
 
@@ -135,7 +135,8 @@ look for methods with these exact names.
 11. Implement the analyze_file() method to:
     * Read the 'test.txt' file in lines 
     * Create an array of LineAnalyzers for each line in the file
-
+    
+    
 12. Implement the calculate_line_with_highest_frequency() method to:
     * calculate the maximum value for highest_wf_count contained by the LineAnalyzer objects in the analyzers array 
     and store this result in the highest_count_across_lines attribute.
